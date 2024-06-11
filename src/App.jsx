@@ -4,19 +4,19 @@ import ashtangaStandingSequence from "./poses.js";
 import Card from "./Card.jsx";
 import Sidebar from "./Sidebar.jsx";
 import Search from "./Search.jsx";
+import BreathCounter from "./BreathCounter.jsx";
 
 function App() {
   const [selectedPose, setSelectedPose] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
 
-  const filteredPoses = ashtangaStandingSequence.filter((pose) => {
+  const filteredPoses = ashtangaStandingSequence.filter(pose => {
     return pose.sanskritName.toLowerCase().includes(searchTerm);
   });
 
-  console.log({ selectedPose, setSelectedPose });
-
   return (
     <div>
+      <BreathCounter />
       <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />{" "}
       <div className="grid grid-cols-3 gap-8">
         {filteredPoses.map((pose, i) => (

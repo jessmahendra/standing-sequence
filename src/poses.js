@@ -1,5 +1,6 @@
 const ashtangaStandingSequence = [
   {
+    id: "1",
     sanskritName: "Samasthiti",
     englishName: "Equal Standing Pose",
     description:
@@ -8,6 +9,7 @@ const ashtangaStandingSequence = [
     tags: ["standing", "centering", "balance"],
   },
   {
+    id: "2",
     sanskritName: "Surya Namaskara A",
     englishName: "Sun Salutation A",
     description:
@@ -16,6 +18,7 @@ const ashtangaStandingSequence = [
     tags: ["warm-up", "vinyasa", "flow"],
   },
   {
+    id: "3",
     sanskritName: "Surya Namaskara B",
     englishName: "Sun Salutation B",
     description:
@@ -24,6 +27,7 @@ const ashtangaStandingSequence = [
     tags: ["warm-up", "vinyasa", "flow"],
   },
   {
+    id: "4",
     sanskritName: "Padangusthasana",
     englishName: "Big Toe Pose",
     description:
@@ -32,6 +36,7 @@ const ashtangaStandingSequence = [
     tags: ["forward bend", "hamstring stretch"],
   },
   {
+    id: "5",
     sanskritName: "Padahastasana",
     englishName: "Hand Under Foot Pose",
     description:
@@ -40,6 +45,7 @@ const ashtangaStandingSequence = [
     tags: ["forward bend", "hamstring stretch"],
   },
   {
+    id: "6",
     sanskritName: "Utthita Trikonasana",
     englishName: "Extended Triangle Pose",
     description:
@@ -48,6 +54,7 @@ const ashtangaStandingSequence = [
     tags: ["standing", "side stretch", "balance"],
   },
   {
+    id: "7",
     sanskritName: "Parivrtta Trikonasana",
     englishName: "Revolved Triangle Pose",
     description:
@@ -56,6 +63,7 @@ const ashtangaStandingSequence = [
     tags: ["standing", "twist", "balance"],
   },
   {
+    id: "8",
     sanskritName: "Utthita Parsvakonasana",
     englishName: "Extended Side Angle Pose",
     description:
@@ -64,6 +72,7 @@ const ashtangaStandingSequence = [
     tags: ["standing", "side stretch", "balance"],
   },
   {
+    id: "9",
     sanskritName: "Parivrtta Parsvakonasana",
     englishName: "Revolved Side Angle Pose",
     description:
@@ -72,6 +81,7 @@ const ashtangaStandingSequence = [
     tags: ["standing", "twist", "balance"],
   },
   {
+    id: "10",
     sanskritName: "Prasarita Padottanasana A",
     englishName: "Wide-Legged Forward Bend A",
     description:
@@ -80,6 +90,7 @@ const ashtangaStandingSequence = [
     tags: ["forward bend", "hamstring stretch"],
   },
   {
+    id: "11",
     sanskritName: "Prasarita Padottanasana B",
     englishName: "Wide-Legged Forward Bend B",
     description:
@@ -88,6 +99,7 @@ const ashtangaStandingSequence = [
     tags: ["forward bend", "hamstring stretch"],
   },
   {
+    id: "12",
     sanskritName: "Prasarita Padottanasana C",
     englishName: "Wide-Legged Forward Bend C",
     description:
@@ -96,6 +108,7 @@ const ashtangaStandingSequence = [
     tags: ["forward bend", "hamstring stretch", "shoulder stretch"],
   },
   {
+    id: "13",
     sanskritName: "Prasarita Padottanasana D",
     englishName: "Wide-Legged Forward Bend D",
     description:
@@ -104,6 +117,7 @@ const ashtangaStandingSequence = [
     tags: ["forward bend", "hamstring stretch"],
   },
   {
+    id: "14",
     sanskritName: "Parsvottanasana",
     englishName: "Intense Side Stretch Pose",
     description:
@@ -112,6 +126,7 @@ const ashtangaStandingSequence = [
     tags: ["forward bend", "hamstring stretch", "balance"],
   },
   {
+    id: "15",
     sanskritName: "Utthita Hasta Padangusthasana",
     englishName: "Extended Hand to Big Toe Pose",
     description:
@@ -120,6 +135,7 @@ const ashtangaStandingSequence = [
     tags: ["balance", "leg stretch"],
   },
   {
+    id: "16",
     sanskritName: "Ardha Baddha Padmottanasana",
     englishName: "Half Bound Lotus Standing Forward Bend",
     description:
@@ -128,6 +144,7 @@ const ashtangaStandingSequence = [
     tags: ["forward bend", "balance", "hip opener"],
   },
   {
+    id: "17",
     sanskritName: "Utkatasana",
     englishName: "Chair Pose",
     description:
@@ -136,6 +153,7 @@ const ashtangaStandingSequence = [
     tags: ["strength", "balance"],
   },
   {
+    id: "18",
     sanskritName: "Virabhadrasana A",
     englishName: "Warrior I",
     description:
@@ -144,6 +162,7 @@ const ashtangaStandingSequence = [
     tags: ["strength", "balance"],
   },
   {
+    id: "19",
     sanskritName: "Virabhadrasana B",
     englishName: "Warrior II",
     description:
